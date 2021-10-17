@@ -1,3 +1,41 @@
+body{
+    /* background-color: #20365c; */
+    background-image: linear-gradient(to right , #20365c , #AAA) ;
+    height: 100%;
+    padding-left:20px;
+}
+form{
+    width: 275px;
+    height: auto;
+}
 h2{
-    font-family: 'Rampart One', cursive;font-size: 30pt;
+    font-family: 'Rampart One', cursive;font-size: 30pt;color: aliceblue;
+}
+input{
+    width: inherit;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px #fff;
+    background: none;
+    color: aliceblue;
+    font-size: 20px;
+    outline: none;
+    font-family: 'Courgette', cursive;
+}
+button{
+    display: block;
+    width: inherit;
+    height: 35px;
+    margin-top: 15px;
+    background-color: #118ac4;
+    border-bottom: 1px solid aliceblue;
+    border-radius: 5px;
+    border-right: 1px solid aliceblue;
+    border-top: none;
+    border-left: none;
+    text-align: center;
+    color: #fff;
+    font-size: 14pt;
+    font-family: 'Arbutus Slab', serif;
 }
