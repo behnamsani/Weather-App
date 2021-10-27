@@ -62,7 +62,7 @@ function sendCity(event){
             div2.appendChild(Temperature);
 
             const pSymbol = document.createElement("p");
-            pSymbol.innerHTML=`c­°`;
+            pSymbol.innerHTML=`°c­`;
             div2.appendChild(pSymbol);
 
 
